@@ -1,0 +1,84 @@
+.category {
+    width: max-content;
+    border: 1px solid lightgrey;
+    border-radius: 8px;
+    /* padding: 16px; */
+    margin: 0px 16px;
+    background-color: lightgrey;
+    height: fit-content;
+    max-height: 96vh;
+    overflow: hidden;
+    overflow-y: auto;
+
+}
+
+.categoryTitle {
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 8px;
+    display: flex;
+    align-items: center;
+}
+
+.newCardInput {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: lightgrey;
+    resize: none;
+    outline: none;
+   width: 100%;
+}
+
+.actions {
+    padding: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.deleteAction {
+    text-align: center;
+    padding: 16px;
+}
+
+.addNewCard {
+    padding: 0px 8px;
+}
+
+.actionable {
+    cursor: pointer;
+}
+.actionable-size {
+    font-size: x-large;
+}
+.titleBox {
+    display: flex; 
+    cursor: pointer;
+    padding: 16px;
+}
+.categoryTitleTxt {
+    border: none;
+    border-bottom: 1px solid;
+    outline: none;
+    background-color: transparent;
+    margin: 16px;
+
+}
+.cardList {
+    max-height: 80vh;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.titleLbl {
+    overflow: hidden;
+    width: 20vh;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.deleteBtn {
+    font-weight: 600;
+    padding: 4px 16px;
+}

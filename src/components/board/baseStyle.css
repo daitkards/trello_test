@@ -1,0 +1,16 @@
+.categories {
+    padding: 16px;
+    display: flex;
+  }
+  
+  .addNewCategory {
+    font-size: xx-large;
+    padding: 16px;
+  }
+  
+  .actionable {
+    cursor: pointer;
+  }
+  .actionable-size {
+      font-size: large;
+  }

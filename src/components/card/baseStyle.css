@@ -1,0 +1,31 @@
+.card {
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+    margin: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.cardTile {
+    flex:2;
+    padding: 8px;
+    margin: 0px 16px 8px 8px;
+}
+.cardActions {
+    padding: 0px 8px;
+}
+.cardInput {
+    width: 100%;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    background-color: white;
+    resize: none;
+}
+.actionable {
+    cursor: pointer;
+}
+.actionable-size {
+    font-size: x-large;
+}
